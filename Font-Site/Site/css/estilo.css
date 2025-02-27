@@ -1,0 +1,232 @@
+/*Principal*/
+@media (min-width: 500px ){
+    * {
+        margin: 0;
+        padding: 0;
+    
+    }
+    body {
+        font-family: Arial, sans-serif;
+       background:linear-gradient(#0C8032,#94e28f) ;
+    }
+    
+    /*cabeçario*/
+    header{
+        width: 100%;
+        height: 75px;
+        margin-top: 50px;
+        border: 2px solid transparent;
+        background-color: transparent;
+        position: relative;
+    }
+    nav{
+        margin-top: 10px;
+        margin-left: 1100px;
+    }
+    
+    #logo{
+        float: left;
+        height: 80px;
+        border: 1px solid transparent;
+        overflow: hidden;
+        margin-left:50px ;
+    }
+    .escrita{
+        margin-top: 10px;
+        margin-left: 1000px;
+    }
+    a{
+        margin-left: 20px; 
+        text-align: center;
+        font-size: 20px;
+        text-decoration: none;
+        color: #f0fdf4;
+    }
+    
+    /*parte do conteudo*/
+    .escrito{
+    
+        border: 1px solid transparent;
+        width: 500px;
+        height: 510px;
+        margin-left: 450px;
+        margin-top: 100px;
+    }
+    #sla h1{
+        float: left;
+        margin-top: 100px;
+        color: #f0fdf4;
+    }
+    #sla p{
+        color: #f0fdf4;
+        width: 450px;
+        margin-top: 20px;
+    }
+    .imagem{
+       margin-top: -550px;
+       margin-left:800px;
+    }
+    .bus{
+        width: 100px;
+        height: 35px;
+        border-radius: 25px;
+        background:#0C8032;
+        color: #f0fdf4;
+        margin-left: -20px;
+    }
+    footer{
+        background-color: transparent;
+    }
+}
+/*medida para tablet*/
+@media  (max-width: 1280px){
+    * {
+        margin: 0;
+        padding: 0;
+    
+    }
+    body {
+        background: linear-gradient(#0C8032,#94e28f);
+    }
+    
+    /*cabeçario*/
+    header{
+        width: 100%;
+        height: 75px;
+        margin-top: 50px;
+        border: 2px solid transparent;
+        background-color: transparent;
+        position: relative;
+    }
+    nav{
+        margin-top: 10px;
+        margin-left: 400px;
+    }
+    
+    #logo{
+        float: left;
+        height: 80px;
+        border: 1px solid transparent;
+        overflow: hidden;
+        margin-left:50px ;
+    }
+
+    a{
+        margin-left: 20px; 
+        text-align: center;
+        font-size: 20px;
+        text-decoration: none;
+        color: #f0fdf4;
+    }
+    
+    /*parte do conteudo*/
+    .escrito{
+    
+        border: 1px solid transparent;
+        width: 400px;
+        height: 1000px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+    #sla h1{
+        float: left;
+        margin-top: 200px;
+        color: #f0fdf4;
+        width:400px ;
+    }
+    #sla p{
+        color: #f0fdf4;
+        width: 350px;
+        margin-top: 50px;
+    }
+    .imagem{
+       margin-top: -900px;
+       margin-left:450px;
+       float: left;
+    }
+    .bus{
+        width: 100px;
+        height: 35px;
+        border-radius: 25px;
+        background:#0C8032;
+        color: #f0fdf4;
+        margin-left: -20px;
+    }
+}
+/*medida mobile*/
+@media (max-width: 767px){
+    * {
+        margin: 0;
+        padding: 0;
+    
+    }
+    body {
+        background: linear-gradient(#0C8032,#94e28f);
+    }
+    
+    /*cabeçario*/
+    header{
+        width: 100%;
+        height: 75px;
+        margin-top: 50px;
+        border: 2px solid transparent;
+        background-color: transparent;
+        position: relative;
+    }
+    nav{
+        margin-top: 8px;
+        margin-left: 150px;  
+    }
+    
+    #logo{
+        float: left;
+        height: 40px;
+        width: 100px;
+        border: 1px solid transparent;
+        overflow: hidden;
+        margin-left:10px ;
+        margin-top: 20px;
+    }
+
+    a{
+        margin-left: 20px; 
+        text-align: center;
+        font-size: 20px;
+        text-decoration: none;
+        color: #f0fdf4;
+    }
+    
+    /*parte do conteudo*/
+    .escrito{
+        border: 1px solid transparent;
+        width: 400px;
+        height: 1000px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    #sla h1{
+        margin-left: 25px;
+        margin-top: 550px;
+        color: #f0fdf4;
+        width:400px ;
+    }
+    #sla p{
+        color: #f0fdf4;
+        width: 350px;
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+    .imagem{
+       margin-top: -950px;
+       margin-left:70px;
+    }
+    .bus{
+        width: 100px;
+        height: 35px;
+        border-radius: 25px;
+        background:#0C8032;
+        color: #f0fdf4;
+        margin-left: -1px;
+        margin-top: 5px;
+    }
+}

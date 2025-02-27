@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/cadastro.css">
+    <link rel="icon" href="../img/logoCerto.png" type="image/png">  
+    <title>TerraRise</title>
+</head>
+<body>
+  <header>     
+    <a href="../paginas/index.html"> <img id="logo" src="../img/logofinal1.png" alt="TerraRise Logo"></a>
+    <nav class="nav-links">
+        <a href="../paginas/produto.html">Produto</a>
+        <a href="#">Cadastro</a>
+        <a href="../paginas/sobrenos.html">Sobre Nós</a>
+    </nav>
+</header>
+    <form action="">
+            <h1>Cadastre-se na TerraRise</h1>
+            <div class="forms">
+              <label for="nome">Nome</label>
+              <br>
+              <input type="text" id="nome"  placeholder=  "Seu nome completo" required/>
+            </div>
+            <br>
+            <div class="forms">
+              <label for="email">E-mail</label>
+              <br>
+              <input type="email" id="email"  placeholder="Seu@email.com" required/>
+            </div>
+            <br>
+            <div>
+              <label for="senha">Senha</label>
+              <br>
+              <input type="password" id="Senha" placeholder="Sua senha" required/>
+            </div>
+            <br>
+            <div>
+              <label for="telefone">Telefone</label>
+              <br>
+              <input type="text" id="telefone" placeholder="(00)00000-0000"required/>
+            </div>
+            <br>
+            <div>
+              <label for="endereco">Endereço</label>
+              <br>
+              <input type="text" id="endereco" placeholder="Seu edereço completo"required/>
+            </div>
+            <button id="for" type="submit" > Cadastrar</button>
+    </form>
+    <div class="cad-completo" id="cadastroCompleto"></div>
+    <footer>
+        <p id="rodape">©2024 terrarise.todos os direitos reservados</p> 
+    </footer>
+    <script src="../js/cadastro.js"></script>
+</body>
+</html>

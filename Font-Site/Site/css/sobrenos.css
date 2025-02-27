@@ -1,0 +1,355 @@
+/*Principal*/
+@media (min-width: 500px ){
+
+    * {
+        margin: 0;
+        padding: 0;
+    
+    }
+    body{
+        background: #f0fdf4;
+    
+    }
+    header, footer{
+        width: 100%;
+        height: 75px    ;
+        border: 2px solid transparent;
+        background-color: #218040;
+        position: relative;
+    }
+    #logo{
+        float: left;
+        height: 80px;
+        border: 1px solid transparent;
+        overflow: hidden;
+        margin-left:10px ;
+    }
+    a, .insta{
+        margin-left: 20px; 
+        text-align: center;
+        font-size: 20px;
+        text-decoration: none;
+        color: #F1F1DD;
+    }
+    .insta{
+        color: #218040;
+        margin-left: 60px;
+        margin-top: -10px;
+    }
+    nav{
+        margin-top: 10px;
+        margin-left: 1100px;
+    }
+
+    h1,h2{
+        margin-top: 20px;
+        text-align: center;
+        color: #218040;
+    }
+    h2{ 
+        align-items: center;
+        margin-top: -100px;
+        margin-left: 60px;
+    }
+    #sobre,#nos{
+        width: 1020px;
+        height: 200px;
+        margin-top: 15px;
+        margin-left: 250px;
+        border-radius: 10px;
+        box-shadow:0px 0px 2px 2px rgba(0, 0, 0, 0.2) ;
+    }
+    #nos{
+        margin-top: 50px;
+    }
+    .escritas{
+        border: transparent ;
+        width: 900px;
+        margin-left: 50px;
+        margin-top: -10px;
+        text-align: justify;
+    }
+    .sla{
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    .sla2{
+        margin-top: 30px;
+        margin-left: 35px;
+    }
+    .foto  {
+        border-radius: 20px;
+        width: 600px;
+        height: 200px;
+        float: left;
+        margin-left: 110px;
+        margin-top: 30px;
+        box-shadow:0px 0px 2px 2px rgba(0, 0, 0, 0.2) ;
+    }
+    .foto img{
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+        margin-left: 25px;
+        border-radius: 25%;
+        margin-top: 25px;
+    }
+    .insta img{
+        width: 25px;
+        height: 25px;
+        margin-top: 20px;
+        margin-left: 200px;
+    }
+
+    #rodape{
+        color: #F1F1DD;
+        text-align: center;
+        margin-top: 30px;
+    }
+    footer{
+        float: left;
+        margin-top: 87px;
+    }
+}
+
+
+/*medida para tablet*/
+@media  (max-width: 1280px){
+    * {
+    margin: 0;
+    padding: 0;
+
+}
+    body{
+        background: #f0fdf4;
+    }
+    header, footer{
+        width: 100%;
+        height: 75px    ;
+        border: 2px solid transparent;
+        background-color: #218040;
+    }
+    #logo{
+        float: left;
+        height: 80px;
+        border: 1px solid transparent;
+        overflow: hidden;
+        margin-left:10px ;
+    }
+    a, .insta {
+        margin-left: 20px; 
+        text-align: center;
+        font-size: 20px;
+        text-decoration: none;
+        color: #F1F1DD;
+    }
+    .insta {
+        color: #218040;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    nav{
+        margin-top: 5px;
+        margin-left: 400px;
+    }
+    .conteudo{
+        margin-top: 30px;
+    }
+   
+    h1,h2,.jv{
+        margin-top: 10px;
+        text-align: center;
+        color: #218040;
+    }
+    h2,.jv{
+        margin-top: -120px;
+        margin-left: 175px ;
+        font-size: 25px;
+        align-items: center;
+    }
+    .jv{
+        margin-left: 150px;
+    }
+    #sobre,#nos{
+        width:760px;
+        height: 200px;
+        margin-left: 20px;
+        border-radius: 10px;
+        margin-top: 15px;
+        box-shadow:0px 0px 2px 2px rgba(0, 0, 0, 0.2) ;
+    }
+    #nos{
+        margin-top: 50px;
+    }
+    .escritas{
+        border: transparent ;
+        width: 700px;
+        margin-left: 25px;
+        margin-top: -1px;
+        text-align: justify;
+    }
+    .sla{
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+    .sla2{
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+    .foto  {
+        border-radius: 20px;
+        width: 390px;
+        height: 200px;
+        float: left;
+        margin-left: 7px;
+        margin-top: 30px;
+        box-shadow:0px 0px 2px 2px rgba(0, 0, 0, 0.2) ;
+    }
+    .foto img{
+        overflow: hidden;
+        width: 150px;
+        height: 158px;
+        margin-left: 15px;
+        border-radius: 25%;
+        margin-top: 20px;
+    }
+    .insta img{
+        width: 25px;
+        height: 25px;
+        margin-top: 20px;
+        margin-left: 200px;
+    }
+
+    #rodape{
+        color: #F1F1DD;
+        text-align: center;
+        margin-top: 30px;
+    }
+    footer{
+        float: left;
+        margin-top: 87px;
+    }
+}
+
+/*monile*/
+@media (max-width: 767px){
+    * {
+        margin: 0;
+        padding: 0;
+    
+    }
+        body{
+            background: #f0fdf4;
+        }
+        header, footer{
+            width: 100%;
+            height: 75px    ;
+            border: 2px solid transparent;
+            background-color: #218040;
+        }
+        #logo{
+            float: left;
+            height: 40px;
+            width: 100px;
+            border: 1px solid transparent;
+            overflow: hidden;
+            margin-left:10px ;
+            margin-top: 20px;
+        }
+        a, .insta {
+            text-align: center;
+            font-size: 21px;
+            text-decoration: none;
+            color: #F1F1DD;
+        }
+        .insta {
+            color: #218040;
+            margin-left: 10px;
+            margin-top: -10px;
+            font-size: 20px;
+        }
+        nav{
+            margin-top: 5px;
+            margin-left: 4px;
+        }
+        .conteudo{
+            margin-top: 30px;
+        }
+       
+        h1,h2,.jv{
+            margin-top: 10px;
+            text-align: center;
+            color: #218040;
+        }
+        h2,.jv{
+            margin-top: -120px;
+            margin-left: 175px ;
+            font-size: 25px;
+            align-items: center;
+        }
+        .jv{
+            margin-left: 150px;
+        }
+        #sobre,#nos{
+            width:350px;
+            height: 450px;
+            margin-left:40px;
+            border-radius: 10px;
+            margin-top: 15px;
+            box-shadow:0px 0px 2px 2px rgba(0, 0, 0, 0.2) ;
+        }
+        #nos{
+            margin-top: 50px;
+        }
+        .escritas{
+            border: transparent ;
+            width: 250px;
+            margin-left: 50px;
+            margin-top: -1px;
+            text-align: justify;
+        }
+        .sla{
+            margin-left: 25px;
+            margin-top: 30px;
+        }
+        .sla2{
+            margin-top: 30px;
+            margin-left: 15px;
+        }
+    
+        .foto  {
+            border-radius: 20px;
+            width: 370px;
+            height: 200px;
+            float: left;
+            margin-left: 30px;
+            margin-top: 30px;
+            box-shadow:0px 0px 2px 2px rgba(0, 0, 0, 0.2) ;
+        }
+        .foto img{
+            overflow: hidden;
+            width: 150px;
+            height: 158px;
+            margin-left: 15px;
+            border-radius: 25%;
+            margin-top: 20px;
+        }
+        .insta img{
+            width: 25px;
+            height: 25px;
+            margin-top: 20px;
+            margin-left: 200px;
+        }
+    
+        #rodape{
+            color: #F1F1DD;
+            text-align: center;
+            margin-top: 30px;
+        }
+        footer{
+            float: left;
+            margin-top: 87px;
+        }
+
+}
