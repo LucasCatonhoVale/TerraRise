@@ -1,0 +1,56 @@
+create database TerraRise
+use TerraRise
+
+create table Usuario(
+id_usuario bigint           not null primary key auto_increment,
+Nome      varchar(255)  not null,
+Email	  varchar(255)  not null,
+Senha	  varchar(255)  not null,
+Telefone  varchar(255)  not null,
+Endereço  varchar(255)  not null
+);
+create table Planta(
+    id_planta bigint PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    Nome VARCHAR(30) ,
+    Tipo VARCHAR(20) NOT NULL,
+    Quantidade varchar(10) NOT NULL
+);
+create table Vaso(
+    id_vaso  bigint primary key not null,
+    vaso	 varchar(20) not null,
+    id_planta bigint ,
+    constraint pt_fk_vs foreign key (id_planta) references Planta(id_planta)
+);
+create table Agendar (
+    id_agendar bigint primary key not null auto_increment,
+    Data       varchar(20)   not null,
+    Hora 	   varchar(20)   not null,
+    vaso       enum('vaso01','vaso02') not null
+);
+
+
+create table Historico(
+	id_historico		 bigint primary key not null auto_increment,
+	Hora				 varchar(50)		 not null,
+	Data				 varchar(50)		 not null,
+	id_vaso      bigint        not null,
+	constraint vs_fk_ht foreign key (id_vaso) references Vaso(id_vaso)
+);
+
+
+//cadastro das Plantas
+INSERT INTO Planta( Nome, Tipo, Quantidade)VALUES (null, 'rosa','5.5');
+INSERT INTO Planta (Nome, Tipo, Quantidade)VALUES ('Orquídea', 'Flor', '10.0');
+INSERT INTO Planta (Nome, Tipo, Quantidade)VALUES ('Samambaia', 'Folhagem', '20.5');
+INSERT INTO Planta (Nome, Tipo, Quantidade)VALUES ('Bromélia', 'Flor', '15.75');
+INSERT INTO Planta (Nome, Tipo, Quantidade)VALUES ('Suculenta', 'Cactácea', '25.15');
+INSERT INTO Planta (Nome, Tipo, Quantidade)VALUES ('Ficus', 'Árvore', '5.5');
+
+
+//Cadastro dos Vasos 
+insert into Vaso(id_vaso,vaso,id_planta)values(1,'Vaso01',null);
+insert into Vaso(id_vaso,vaso,id_planta)values(2,'Vaso02',null);
+
+
+insert INTO Agendar (Data,Hora,Vaso)Values('12-12-2024','08:00','vaso01')
+insert into Historico(data,hora,id_vaso)values('12-12-2024','08:00',1)
